@@ -1,4 +1,4 @@
-baseURL: "https://ru.algorithmica.org/"
+baseURL:*"https://ru.algorithmica.org/"
 theme:
 - algorithmica
 - reveal-hugo
@@ -19,7 +19,7 @@ outputs:
   - SearchIndex
 markup:
   goldmark:
-    footnote: false  # katex conflict
+    footnote: false  ! katex conflict
     renderer:
       unsafe: true
 defaultContentLanguage: en
@@ -47,3 +47,4 @@ params:
     transition: none
     custom_theme: "slides.sass"
     custom_theme_compile: true
+ 
